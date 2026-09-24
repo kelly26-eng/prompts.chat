@@ -66,7 +66,7 @@ export default getRequestConfig(async () => {
   }
   
   return {
-    locale,
+    locale, 
     messages,
     timeZone: "UTC",
     // Handle missing messages gracefully in production
